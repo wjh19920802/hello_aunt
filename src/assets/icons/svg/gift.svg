@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="67px" height="69px" viewBox="0 0 67 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>liwu备份</title>
+    <defs>
+        <filter x="-37.2%" y="-35.6%" width="174.4%" height="171.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.385955597 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-2" points="0.00385074627 0.0475 42.6149254 0.0475 42.6149254 9.647625 0.00385074627 9.647625"></polygon>
+        <linearGradient x1="0.825624208%" y1="50%" x2="98.374642%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#DBD8D1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="我的公会" transform="translate(-627.000000, -1028.000000)">
+            <g id="编组-16" transform="translate(30.000000, 913.000000)">
+                <g id="liwu备份" filter="url(#filter-1)" transform="translate(609.000000, 127.000000)">
+                    <g id="编组" transform="translate(0.000000, 12.000000)">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <polygon id="Fill-1" fill="#C2C1C0" mask="url(#mask-3)" points="0.00385074627 9.647625 42.6149254 9.647625 42.6149254 0.0475 0.00385074627 0.0475"></polygon>
+                    </g>
+                    <polygon id="Fill-3" fill="url(#linearGradient-4)" points="5 45 38 45 38 22 5 22"></polygon>
+                    <path d="M33,27 L32.5968556,27 C32.5968556,24.0072707 31.9872902,21.3780789 30.7883733,19.1865149 C29.8312675,17.4371888 28.4911682,15.9566302 26.813541,14.7922568 C23.9422235,12.800836 21.0302264,12.4108236 21,12.4108236 L21.0504403,12 C21.1714718,12.0156743 24.0782423,12.4002863 27.0251257,14.4393226 C28.7632057,15.6407083 30.1434179,17.1631528 31.1359767,18.970434 C32.3752584,21.2306882 33,23.9283067 33,27 Z" id="Fill-4" fill="#FFFFFF"></path>
+                    <g id="编组" transform="translate(5.000000, 0.000000)" fill="#FFFFFF">
+                        <polygon id="Fill-5" points="12.9462235 44.4294507 19.5722353 44.4294507 19.5722353 11.963662 12.9462235 11.963662"></polygon>
+                        <path d="M16.2593588,11.963662 L12.9462235,11.963662 L1.27341176,7.83627465 C0.124364706,7.52209859 -0.341711765,6.17330282 0.377882353,5.24040845 L3.87730588,0.681971831 C4.53445882,-0.174929577 5.82857647,-0.205352113 6.53277059,0.610922535 L16.2593588,11.963662 Z M16.2593588,11.963662 L19.5722353,11.963662 L31.2451118,7.83627465 C32.3944176,7.52209859 32.8602353,6.17330282 32.1406412,5.24040845 L28.6414765,0.681971831 C27.984,-0.174929577 26.6898824,-0.210295775 25.9860118,0.610922535 L16.2593588,11.963662 Z" id="Fill-7"></path>
+                    </g>
+                    <path d="M35.5034876,34.5249169 L37.9738715,32.0498987 L37.9791798,32.0448397 C39.3411568,30.6749534 39.3411568,28.459371 37.9738715,27.0948032 C36.6118944,25.7302353 34.4004539,25.7249169 33.0331685,27.0897442 L32.9712163,27.0274147 C31.603931,25.6575284 29.3925552,25.6575284 28.0252698,27.0274147 C26.6582434,28.397301 26.6582434,30.6126239 28.0252698,31.9825102 L33.0331685,37 L35.5034876,34.5249169 Z" id="Fill-8" fill="#C2C1C0"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

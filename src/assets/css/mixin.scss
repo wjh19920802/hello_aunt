@@ -1,0 +1,47 @@
+// mixin
+// 清除浮动
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// 多行隐藏
+@mixin textoverflow($clamp:1) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $clamp;
+
+  /*! autoprefixer: ignore next */
+  -webkit-box-orient: vertical;
+}
+
+//flex box
+@mixin flexbox($jc:space-between, $ai:center, $fd:row, $fw:nowrap,$flex:0) {
+  display: flex;
+  display: -webkit-flex;
+  flex: $flex;
+  justify-content: $jc;
+  -webkit-justify-content: $jc;
+  align-items: $ai;
+  -webkit-align-items: $ai;
+  flex-direction: $fd;
+  -webkit-flex-direction: $fd;
+  flex-wrap: $fw;
+  -webkit-flex-wrap: $fw;
+}
+// 蓝色向右箭头
+@mixin right-arrow($color:#1452f5){
+    width: 6px;
+    height: 6px;
+    margin-left: 6px;
+    display: inline-block;
+    border-top: 0.05333rem solid $color;
+    border-right: 0.05333rem solid $color;
+    transform: rotate(45deg);
+}
+
